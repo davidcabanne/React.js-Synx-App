@@ -1,0 +1,5 @@
+.mainSpacer {
+  position: relative;
+  width: 100vw;
+  height: var(--spaceLrg);
+}
