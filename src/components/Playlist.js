@@ -43,7 +43,10 @@ const Playlist = () => {
         </div>
         <button
           onClick={btnActive}
-          className={classNames({ "buttonClicked--isActive": showBtnActive })}
+          className={classNames({
+            button__playlist: true,
+            "buttonClicked--isActive": showBtnActive,
+          })}
         >
           {showBtnActive && (
             <svg

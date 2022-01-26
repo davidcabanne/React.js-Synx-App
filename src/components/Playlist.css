@@ -82,7 +82,7 @@ label:active:after {
   width: 15px;
 }
 
-button {
+.button__playlist {
   width: 100%;
   border: none;
   font-size: var(--body-firstFont);
@@ -103,7 +103,7 @@ button {
   transition: 0.5s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
-button:hover {
+.button__playlist:hover {
   /*background: var(--beige);*/
   background-size: 1000px 50px;
 }

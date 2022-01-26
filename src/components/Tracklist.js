@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import className from "classnames";
 import Track from "./Track";
 import formatTime from "../lib/formatTime";
-import "./Tracklist.css";
+// import "./Tracklist.css";
 
 const getTracksDuration = (tracks) => {
   let totalDuration = 0;
@@ -90,7 +90,7 @@ const Tracklist = ({ tracks = [], addToSelectedTracks }) => {
           ))}
         </div>
       </div>
-      <div
+      {/* <div
         className={className({
           player__spacer: true,
           "showPlayer--isActive": showPlayerActive,
@@ -164,7 +164,7 @@ const Tracklist = ({ tracks = [], addToSelectedTracks }) => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

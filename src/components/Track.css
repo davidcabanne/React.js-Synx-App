@@ -14,7 +14,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100px;
   background: var(--greenPrimary);
   opacity: 0.02;
   border-radius: 5px var(--spaceSml) var(--spaceSml) 5px;
@@ -27,7 +27,10 @@
 
 .track__wrapper {
   width: 100%;
+  height: 100px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .track__coverWrapper {
