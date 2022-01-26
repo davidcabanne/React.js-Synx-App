@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import className from "classnames";
 import Track from "./Track";
 import formatTime from "../lib/formatTime";
-// import "./Tracklist.css";
+import "./Tracklist.css";
 
 const getTracksDuration = (tracks) => {
   let totalDuration = 0;

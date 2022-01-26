@@ -41,7 +41,7 @@
 .tracklist__mainInfos--nbr {
   margin-right: var(--spaceSml);
 }
-
+/* 
 .player__spacer,
 .player__container,
 .player__container:after,
@@ -234,4 +234,4 @@
   margin-right: var(--spaceSml);
   transition: all 0.3s cubic-bezier(0.86, 0, 0.07, 1);
   transition-property: margin;
-}
+} */
